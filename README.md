@@ -6,7 +6,7 @@
 </p>
 
 ---
-![](封面.png)
+![](封面.jpg)
 
 ## 🇨🇳 中文介绍
 
@@ -28,7 +28,7 @@
 ### 🔗 引脚分配
 
 ```
-![](接线图.jpg)
+![](接线图.png)
 ┌─────────────────────────────────────────┐
 │              ESP32 引脚映射              │
 ├─────────────┬─────────────┬─────────────┤
@@ -38,13 +38,6 @@
 │ OLED SCL    │ I2C 时钟    │ GPIO 17     │
 │ DFPlayer TX │ UART 发送   │ GPIO 13     │
 │ DFPlayer RX │ UART 接收   │ GPIO 12     │
-│ 舵机        │ PWM 信号    │ GPIO 27     │
-│ 按钮        │ 数字输入    │ GPIO 14     │
-│ RC522 SDA   │ SPI CS      │ GPIO 16     │
-│ RC522 SCK   │ SPI 时钟    │ GPIO 15     │
-│ RC522 MOSI  │ SPI 数据出  │ GPIO 2      │
-│ RC522 MISO  │ SPI 数据入  │ GPIO 4      │
-│ RC522 RST   │ 复位        │ GPIO 21     │
 │ WS2812 灯带1│ 数据        │ GPIO 27     │
 │ WS2812 灯带2│ 数据        │ GPIO 14     │
 └─────────────┴─────────────┴─────────────┘
@@ -150,13 +143,8 @@ DuelDisk-ESP32 is a smart duel disk system built on ESP32 with MicroPython. Insp
 │ DFPlayer RX │ UART RX     │ GPIO 12     │
 │ Servo       │ PWM Signal  │ GPIO 27     │
 │ Button      │ Digital In  │ GPIO 14     │
-│ RC522 SDA   │ SPI CS      │ GPIO 16     │
-│ RC522 SCK   │ SPI Clock   │ GPIO 15     │
-│ RC522 MOSI  │ SPI Data Out│ GPIO 2      │
-│ RC522 MISO  │ SPI Data In │ GPIO 4      │
-│ RC522 RST   │ Reset       │ GPIO 21     │
-│ WS2812 #1   │ Data        │ GPIO 33     │
-│ WS2812 #2   │ Data        │ GPIO 25     │
+│ WS2812 #1   │ Data        │ GPIO 27     │
+│ WS2812 #2   │ Data        │ GPIO 14     │
 └─────────────┴─────────────┴─────────────┘
 ```
 
